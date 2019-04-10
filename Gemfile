@@ -35,6 +35,7 @@ gem 'mini_magick', '~> 4.8'
 
 gem 'simple_form'
 gem 'devise'
+gem 'devise-i18n'
 gem 'gravatar_image_tag'
 gem 'carrierwave', '~> 1.0'
 gem "bulma-rails", "~> 0.7.4"
@@ -46,6 +47,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem "better_errors"
+  gem 'binding_of_caller'
   gem 'guard'
   gem 'guard-livereload', '~> 2.5'
 end

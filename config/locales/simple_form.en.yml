@@ -1,27 +1,24 @@
 en:
   simple_form:
-    "yes": 'Oui'
-    "no": 'Non'
+    "yes": 'Yes'
+    "no": 'No'
     required:
-      text: 'requis'
+      text: 'required'
       mark: '*'
       # You can uncomment the line below if you need to overwrite the whole required html.
       # When using html, text and mark won't be used.
-      html: '<abbr title="required">*</abbr>'
+      # html: '<abbr title="required">*</abbr>'
     error_notification:
-      default_message: "Merci de corriger les erreurs signalées:"
+      default_message: "Please review the problems below:"
     # Examples
-    labels:
-       defaults:
-         name: 'Nom'
-         email: 'Mail'
-         password: 'Mot de passe'
-         password_confirmation: 'Confirmation de mot de passe'
-       user:
-         new:
-           email: "Mail pour s'inscrire"
-         edit:
-           email: 'Mail'
+    # labels:
+    #   defaults:
+    #     password: 'Password'
+    #   user:
+    #     new:
+    #       email: 'E-mail to sign in.'
+    #     edit:
+    #       email: 'E-mail.'
     # hints:
     #   defaults:
     #     username: 'User name to sign in.'
